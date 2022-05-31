@@ -30,8 +30,6 @@ ENV LD_LIBRARY_PATH /usr/local/lib:${LD_LIBRARY_PATH}
 ENV PKG_CONFIG_PATH /usr/local/lib/pkgconfig:$PKG_CONFIG_PATH
 ENV LIBRARY_PATH /usr/local/cuda/lib64/stubs:${LIBRARY_PATH}
 
-RUN /opt/docker/install-beagle.sh
-
 RUN /opt/docker/install-beast2.sh
 
 ENV BEAST="/usr/local"
