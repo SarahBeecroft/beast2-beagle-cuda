@@ -1,4 +1,7 @@
 name: Docker Image CI
+registry: quay.io/sarahbeecroft9
+image: beast2
+tags: v1 v1.0.0
 
 on:
   push:
